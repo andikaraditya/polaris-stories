@@ -1,4 +1,14 @@
+:root {
+    --main-black: #1f1f1f;
+}
+
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
+    color: var(--main-black);
+    background-color: #fff2fd;
+}
+
+.pointer-hover:hover {
+    cursor: pointer;
 }

@@ -1,0 +1,31 @@
+#HomePage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+}
+
+#HomePage p, #HomePage h1 {
+    text-align: center;
+}
+
+#HomePage h1 {
+    font-size: 15rem;
+    font-weight: 300;
+    margin: 0;
+}
+#HomePage p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.button {
+    width: 400px;
+    font-size: 3.5rem;
+    text-align: center;
+    align-self: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    border: solid 0.3rem var(--main-black);
+}
