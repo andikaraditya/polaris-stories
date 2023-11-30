@@ -1,0 +1,15 @@
+#library h1 {
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 2.5rem;
+    font-weight: 300;
+}
+
+#shelf {
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
